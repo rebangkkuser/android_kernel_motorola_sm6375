@@ -180,3 +180,10 @@ Add the following code before the last line of this file
 
         CONFIG_HID_AKSYS_QRD=m
         CONFIG_AKSYS_QRD_FF=y
+
+
+# Hi, there's bangkkuser! 
+Features of this kernel (Seal Kernel)
+- KernelSU-Next (drivers/kernelsu/) (KernelSU-Next/)
+- Droidspaces support (planned)
+- Watchseal-optimized (arch/arm64/configs/sealkernel_bangkk_defconfig) (planned)
