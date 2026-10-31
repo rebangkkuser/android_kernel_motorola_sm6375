@@ -22,4 +22,8 @@ static inline void exit_task_work(struct task_struct *task)
 	task_work_run();
 }
 
-#endif	/* _LINUX_TASK_WORK_H */
+#ifndef TWA_RESUME
+#define TWA_RESUME true
+#endif
+
+#endif  /* _LINUX_TASK_WORK_H */
