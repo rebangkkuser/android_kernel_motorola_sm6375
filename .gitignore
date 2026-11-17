@@ -91,6 +91,8 @@ modules.order
 !.gitattributes
 !.gitignore
 !.mailmap
+!.github/
+!.github/**
 
 #
 # Generated include files
@@ -148,6 +150,9 @@ x509.genkey
 
 # vendor device tree directories
 arch/arm/boot/dts/vendor
+
+# KernelSU (cloned by CI and via symlink drivers/kernelsu)
+/KernelSU/
 
 #
 #Ignoring Android.bp link file
